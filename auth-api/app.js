@@ -1,4 +1,7 @@
 const express = require("express");
+import * as db from "./src/config/db/initialData.js";
+
+
 
 const app = express();
 const env = process.env;
